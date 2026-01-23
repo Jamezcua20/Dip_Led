@@ -1,0 +1,64 @@
+
+ROM used:   1048/131072 (1%)
+            1052/131072 (1%) including unused fragments
+
+            0.2 Average locations per line
+            2.2 Average locations per statement
+
+RAM used:   21/3562 (1%) at main() level
+            26/3562 (1%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  195   102  22  Main.c
+  272    10   2  ..\..\Dip + leds repo\protolink\firmware\protolink\..\protolink\excore.h
+ 2223     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F67K40.h
+  107     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\bootloader.h
+   37     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h
+  435     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+ 1352   359  76  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+----- -----
+ 4681   471 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   2    1             @delay_ms1
+0     12   1    1     33  1.5  lectura
+0    360  17    0   2478  3.9  control_leds
+0     44   2    4    166  4.7  binario
+0    294  14    3    487  6.2  MAIN
+0     18   1    0             @const1247
+0     50   2    4             @PSTRINGCN_115200_31850_31851
+0     40   2    3             @DIV88
+0    120   6    2             @PRINTF_U_115200_31850_31851
+0     16   1    0             @const1256
+0     46   2    3             @PSTRINGC_115200_31850_31851
+0      4   0    0             @const1263
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              471
+    Comments                1194
+    Volume (V)              3760
+    Difficulty (D)          16.7
+    Effort to implement (E) 62690
+    Time to implement (T)   58 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   19
+    Maintainability (MI)    107
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-005FE     0  1536  
+00600-00606     4  4  
+00608-0FFFE  1044  62948  
+10000-1FFFE     0  65536  
+
+
+
