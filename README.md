@@ -66,7 +66,6 @@ Prerrequisitos
 
  - Compilador CCS C Compiler.
  - IDE MPLAB X.
- - Driver de comunicación para Protolink EX.
 
 *Pasos:*
  - Clonar este repositorio.
